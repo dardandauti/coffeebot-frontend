@@ -3,10 +3,12 @@ import classes from "./UpForACup.module.scss";
 export const UpForACup = () => {
   return (
     <div className={classes.root}>
-      <p>Are you up for a cup?</p>
-      <p>12</p>
-      <p>people are waiting for coffee.</p>
-      <button>Yes, brew!</button>
+      <h2>Are you up for a cup?</h2>
+      <div className={classes.numberOfPeople}>
+        <h1>12</h1>
+        <h4>people are waiting for coffee.</h4>
+      </div>
+      <button className={classes.brewButton}>Yes, brew!</button>
     </div>
   );
 };

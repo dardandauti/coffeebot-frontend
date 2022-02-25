@@ -1,8 +1,29 @@
 .root {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  & p {
+  & h2,
+  h1,
+  h4 {
     margin: 0;
   }
+}
+
+.numberOfPeople {
+  & h1 {
+    font-size: 3rem;
+  }
+  & h4 {
+    font-weight: normal;
+    margin-top: 0.5rem;
+  }
+}
+
+.brewButton {
+  font-size: x-large;
+  margin: 0rem 3rem;
+  padding: 0.5rem 0rem;
+  border-radius: 0.5rem;
+  border: none;
 }
