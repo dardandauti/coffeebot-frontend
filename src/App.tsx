@@ -1,5 +1,6 @@
 import classes from "./App.module.scss";
 import { BrewingRightNow } from "./Components/BrewingRightNow/BrewingRightNow";
+import { FirstBrewedPot } from "./Components/FirstBrewedPot/FirstBrewedPot";
 import { UpForACup } from "./Components/UpForACup/UpForACup";
 import { Weekly } from "./Components/Weekly/Weekly";
 
@@ -20,7 +21,9 @@ function App() {
         </div>
         <div className={classes.todayCard}>Today</div>
         <div className={classes.lastBrewedCard}>last Brewed</div>
-        <div className={classes.firstBrewedCard}>first brewed</div>
+        <div className={classes.firstBrewedCard}>
+          <FirstBrewedPot />
+        </div>
       </div>
     </div>
   );

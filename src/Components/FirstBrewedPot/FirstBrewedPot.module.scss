@@ -1,0 +1,17 @@
+.root {
+  height: 100%;
+  & h1,
+  h2 {
+    margin: 0;
+  }
+  & h1 {
+    font-size: 4rem;
+  }
+}
+
+.time {
+  height: calc(100% - 2rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

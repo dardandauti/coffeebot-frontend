@@ -51,6 +51,7 @@
   grid-area: graphCard;
   padding: 2rem 1rem;
   background-color: white;
+  border-radius: 1rem;
 }
 
 .weeklyCard {
@@ -64,16 +65,19 @@
   grid-area: todayCard;
   padding: 2rem 1rem;
   background-color: white;
+  border-radius: 1rem;
 }
 
 .lastBrewedCard {
   grid-area: lastBrewedCard;
   padding: 2rem 1rem;
   background-color: white;
+  border-radius: 1rem;
 }
 
 .firstBrewedCard {
   grid-area: firstBrewedCard;
   padding: 2rem 1rem;
   background-color: white;
+  border-radius: 1rem;
 }
