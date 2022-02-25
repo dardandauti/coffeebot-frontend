@@ -2,6 +2,7 @@ import classes from "./App.module.scss";
 import { BrewingRightNow } from "./Components/BrewingRightNow/BrewingRightNow";
 import { FirstBrewedPot } from "./Components/FirstBrewedPot/FirstBrewedPot";
 import { LastBrewedPot } from "./Components/LastBrewedPot/LastBrewedPot";
+import { TodaysStats } from "./Components/TodaysStats/TodaysStats";
 import { UpForACup } from "./Components/UpForACup/UpForACup";
 import { Weekly } from "./Components/Weekly/Weekly";
 
@@ -20,7 +21,9 @@ function App() {
         <div className={classes.weeklyCard}>
           <Weekly />
         </div>
-        <div className={classes.todayCard}>Today</div>
+        <div className={classes.todayCard}>
+          <TodaysStats />
+        </div>
         <div className={classes.lastBrewedCard}>
           <LastBrewedPot />
         </div>
