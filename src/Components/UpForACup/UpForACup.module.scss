@@ -1,3 +1,5 @@
+@import "../../Styles/colors";
+
 .root {
   height: 100%;
   display: flex;
@@ -27,4 +29,12 @@
   border-radius: 0.5rem;
   border: none;
   cursor: pointer;
+  background-color: $button-color;
+
+  &:hover {
+    background-color: $button-color-hover;
+  }
+  &:active {
+    background-color: $button-color-pressed;
+  }
 }
