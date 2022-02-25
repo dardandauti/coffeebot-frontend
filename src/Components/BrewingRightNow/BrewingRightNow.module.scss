@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  & p {
+    margin: 0;
+  }
+}
+
+.rightAlignedTitle {
+  text-align: start;
+}
+
+.leftAlignedFooter {
+  text-align: end;
+}
