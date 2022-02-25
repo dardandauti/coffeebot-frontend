@@ -1,0 +1,27 @@
+.root {
+  height: 100%;
+  & h1,
+  h2 {
+    margin: 0;
+  }
+  & h1 {
+    font-size: 4rem;
+  }
+}
+
+.container {
+  height: calc(100% - 2rem);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.time {
+  width: 33%;
+}
+
+.border {
+  width: 0.3%;
+  background-color: #454545;
+  height: inherit;
+}
